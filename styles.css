@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(242, 244, 235);
+    background-color: rgb(255, 255, 255);
   }
   
   h1 {
     color: rgb(33, 32, 32);
     text-align: center;
-    line-height: 10vh;
-    font-size: 9vh;
+    line-height: 6vh;
+    font-size: 5vh;
     font-family: Helvetica, Arial, sans-serif;
 
   }
@@ -19,9 +19,7 @@ body {
   }
 
   img{
-    height: 25vh;
-    width: 25vh;
-    border-radius: 50%;
+    height: 20vh;
   }
 
   form{
