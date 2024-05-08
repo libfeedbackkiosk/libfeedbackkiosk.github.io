@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <title>V 2.1.5</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="scripts.js"></script>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+<h1><strong>How was your experience today?</strong></h1>
+<p id="thanku" style="font-size: 3vh; line-height: 5vh; opacity: 0;">Thank You! &#128516;</p>
+
+<div class="centerer">
+<div class="container">
+<div class="item-flex">
+  <img src="img_good.png" role="button" onclick="rate(3)"> 
+  <p>Excellent</p>
+</div>
+<div class="item-flex">
+  <img src="img_ok.png" role="button" onclick="rate(4)">
+  <p>Good</p>
+</div>
+<div class="item-flex">
+  <img src="img_bad.png" role="button" onclick="rate(5)">
+  <p>Average</p>
+</div>
+</div>
+</div>
+
+
+<form 
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbzgM3bZuW2OFrDI4vrm39heO4GuNCjuMndhbQdkTW0zAMfTcVySRQhJXx4lkzw3GU-Y/exec"
+  id="dataform"
+>
+  <input id="FormDate" name="Date" type="text">
+  <input id="FormTime" name="Time" type="text">
+  <input id="Rating" name="Rating" type="number" placeholder="0">
+  <button id="submitbutton" type="submit">Send</button>
+</form>
+</div>

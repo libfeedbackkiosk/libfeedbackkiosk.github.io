@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(242, 244, 235);
+  }
+  
+  h1 {
+    color: rgb(33, 32, 32);
+    text-align: center;
+    line-height: 12vh;
+    font-size: 9vh;
+    font-family: Helvetica, Arial, sans-serif;
+
+  }
+  
+  p {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 3vh;  
+  }
+
+  img{
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+  }
+
+  form{
+    display: none;
+  }
+
+  .centerer{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: center;
+  gap: 10vw;
+
+}
+
+.item-flex{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 3px;
+  
+}
+
+
