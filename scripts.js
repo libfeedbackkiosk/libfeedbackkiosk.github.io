@@ -5,10 +5,6 @@ function tymsg() {
     }, 1000)
   }
 
-
-
-
-
 function rate(a) {
   var d = new Date();
   var day = d.getDate();
@@ -22,7 +18,6 @@ function rate(a) {
   document.getElementById('submitbutton').click()
   tymsg();
 }
-
 
 window.addEventListener("load", function() {
   const form = document.getElementById('dataform');
