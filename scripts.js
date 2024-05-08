@@ -8,7 +8,7 @@ function tymsg() {
 function rate(a) {
   var d = new Date();
   var day = d.getDate();
-  var month = d.getMonth();
+  var month = d.getMonth()+1;
   var year = d.getFullYear();
   var time = d.getHours();
   document.getElementById("dataform").reset();
