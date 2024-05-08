@@ -27,6 +27,7 @@ body {
   }
 
   .centerer{
+  height: 20vh;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -41,8 +42,13 @@ body {
   justify-content: center;
   padding: center;
   gap: 10vw;
-
+  list-style: none;
+  margin: 0;
+  display: -webkit-flex; /* NEW */
+  -webkit-flex-wrap: wrap; /* NEW */
 }
+
+
 
 .item-flex{
   display: flex;
@@ -54,14 +60,3 @@ body {
   
 }
 
-
-.container {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: -webkit-flex; /* NEW */
-  display: flex;
-  -webkit-flex-wrap: wrap; /* NEW */
-  flex-wrap: wrap;
-  font-family: "Open Sans";
-}
