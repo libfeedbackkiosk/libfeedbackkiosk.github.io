@@ -27,7 +27,7 @@ body {
   }
 
   .centerer{
-  height: 25vh;
+  height: 5vh;
   display: flex;
   flex-direction: column;
   align-content: center;
