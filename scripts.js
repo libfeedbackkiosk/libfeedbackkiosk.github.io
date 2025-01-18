@@ -14,6 +14,7 @@ function rate(a) {
   var time = d.getHours();
   document.getElementById("dataform").reset();
   document.getElementById("FormDate").value= month+"/"+day+"/"+year;
+  document.getElementById("FormYear").value= year;
   document.getElementById("FormTime").value= time+":00";
   document.getElementById("Rating").value=a;
   document.getElementById('submitbutton').click()
