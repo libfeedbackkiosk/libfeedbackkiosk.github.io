@@ -60,3 +60,12 @@ body {
   
 }
 
+.verBox
+    {position:relative;}
+.ver
+    {position:absolute;
+     bottom:0;
+     right:0;
+     color: rgb(234, 234, 234)
+    }
+
